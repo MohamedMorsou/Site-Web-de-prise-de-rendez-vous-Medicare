@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Logo from "../../assets/images/logo.png";
 import userImg from "../../assets/images/avatar-icon.png";
 // import noPhoto from "../../assets/images/no-photo.jpg";
@@ -80,7 +80,7 @@ const Header = () => {
           {/* nav right */}
 
           <div className="flex items-center gap-4">
-            <div>
+            <div className="hidden">
               <Link to="/">
                 <figure>
                   <img

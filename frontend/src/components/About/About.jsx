@@ -21,7 +21,7 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
               deserunt debitis quam, officiis impedit, quas consequuntur libero
               eius non consequatur delectus tenetur nihil, consectetur ullam.
-              Odit perspiciatis laboriosam possimus dolore!
+              Odit perspiciatis laboriosam possimus dolore
             </p>
             <p className="text__para mt-[30px] ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente

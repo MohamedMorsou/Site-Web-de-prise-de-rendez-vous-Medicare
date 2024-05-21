@@ -24,7 +24,7 @@ const About = () => {
               Odit perspiciatis laboriosam possimus dolore
             </p>
             <p className="text__para mt-[30px] ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
               eius non molestiae quasi, illo voluptas tempora amet doloremque
               velit rem nam officia distinctio consectetur saepe porro unde vero
               similique. Eius?

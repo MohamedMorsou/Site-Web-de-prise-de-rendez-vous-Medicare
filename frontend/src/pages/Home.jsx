@@ -13,9 +13,8 @@ import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
 import ServicesList from "../components/Services/ServicesList";
 import DoctorList from "../components/Doctors/DoctorList";
-import FaqList from '../components/Faq/FaqList'
-// import Testimonial from '../components/Testimonial/Testimonial'
-
+import FaqList from "../components/Faq/FaqList";
+import Testimonial from '../components/Testimonial/Testimonial'
 
 const Home = () => {
   return (
@@ -265,20 +264,34 @@ const Home = () => {
 
       {/* faq */}
       <section>
-        <div className="">
-          <div className="">
-            <div className="">
+        <div className="container">
+          <div className="flex justify-between gap-[50px] lg:gap-0 ">
+            <div className="w-1/2 hidden md:block">
               <img src={faqImg} alt="" />
             </div>
-            <div className="">
-              <h2 className="">Most questions by our beloved patiens</h2>
+            <div className="w-full md:w-1/2">
+              <h2 className="heading">Most questions by our beloved patiens</h2>
               <FaqList />
             </div>
             <div className=""></div>
           </div>
         </div>
-        
+      </section>
 
+      {/* testimonial */}
+      <section>
+        <div className="container">
+          <div className="xl:w[470px] mx-auto">
+            <h2 className="heading text-center">What our patients says</h2>
+            <p className="text__para text-center">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+              aliquid quibusdam perferendis <br></br>
+              quam ullam optio impedit fuga, vitae enim reiciendis! Soluta quae
+              rem natus perspiciatis
+            </p>
+          </div>
+          <Testimonial />
+        </div>
       </section>
     </>
   );

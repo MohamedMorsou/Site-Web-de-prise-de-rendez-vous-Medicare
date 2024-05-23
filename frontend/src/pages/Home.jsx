@@ -7,14 +7,15 @@ import icon03 from "../assets/images/icon03.png";
 import videoIcon from "../assets/images/video-icon.png";
 import avatarIcon from "../assets/images/avatar-icon.png";
 import featureImg from "../assets/images/feature-img.png";
-// import faqImg from '../assets/images/faq-img.png'
+import faqImg from "../assets/images/faq-img.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
 import ServicesList from "../components/Services/ServicesList";
-import DoctorList from '../components/Doctors/DoctorList'
-// import FaqList from '../components/Faq/FaqList'
+import DoctorList from "../components/Doctors/DoctorList";
+import FaqList from '../components/Faq/FaqList'
 // import Testimonial from '../components/Testimonial/Testimonial'
+
 
 const Home = () => {
   return (
@@ -260,6 +261,24 @@ const Home = () => {
           </div>
           <DoctorList />
         </div>
+      </section>
+
+      {/* faq */}
+      <section>
+        <div className="">
+          <div className="">
+            <div className="">
+              <img src={faqImg} alt="" />
+            </div>
+            <div className="">
+              <h2 className="">Most questions by our beloved patiens</h2>
+              <FaqList />
+            </div>
+            <div className=""></div>
+          </div>
+        </div>
+        
+
       </section>
     </>
   );

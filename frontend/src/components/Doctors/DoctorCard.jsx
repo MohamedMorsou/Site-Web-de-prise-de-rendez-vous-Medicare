@@ -38,7 +38,7 @@ const DoctorCard = ({ doctor }) => {
           <p className="text-sm leading-6 font-normal text-textColor">At {hospital}</p>
         </div>
         <Link
-          to="doctors"
+          to="/doctors/1"
           className="w-[44px] h-[44px] rounded-full border
                 border-solid border-[#181A1E]
                 flex items-center justify-center group hover:bg-primaryColor

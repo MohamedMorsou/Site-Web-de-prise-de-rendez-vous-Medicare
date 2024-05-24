@@ -89,7 +89,7 @@ const Footer = () => {
             <img src={logo} alt="" />
             <p className='text-base leading-7 font-normal
             text-textColor mt-4'>
-              Copyright {year} developed by Aldo L.S.
+              Copyright {year} Mohamed Morsou.
             </p>
 
             <div className="flex gap-2 mt-4">

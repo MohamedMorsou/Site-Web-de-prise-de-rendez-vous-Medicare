@@ -46,7 +46,7 @@ const FeedbackForm = () => {
 
       <div className="mt-[30px]">
         <h3 className="text-headingColor text-base leading-6 font-semibold mb-4">
-          Share your feedback suggestion
+          Share your feedback suggestionn
         </h3>
         <textarea 
         rows="5" 
